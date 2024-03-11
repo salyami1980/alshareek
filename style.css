@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #9c27b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff3e0; /* لون أصفر فاتح */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #153E7E;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #00008b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result, #finalResult {
+    margin-top: 10px;
+    font-weight: bold;
+    width: 100%; /* جعل النتائج عريضة */
+}
+/* يضاف هذا النمط لوسمين الخانات input */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    text-align: center; /* تحديد محاذاة النص في المنتصف */
+}
+.container {
+    text-align: center;
+    max-width: 300px; /* تحديد العرض الأقصى للخانات */
+    margin: auto; /* للحفاظ على وسط العرض */
+    padding: 20px;
+    background-color: #fce4ec;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تصغير عرض الخانات */
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* يضاف هذا النمط لوسمين الخانات input */
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    text-align: center; /* تحديد محاذاة النص في المنتصف */
+}
+/* تحديد لون اسم المبرمج إلى اللون الأحمر الداكن (#D32F2F) */
+.developer-name {
+    font-size: 14px;
+    margin-top: 35px;
+    color: #9c27b0; /* لون أحمر داكن */ font-weight: bold;
